@@ -7,4 +7,6 @@ class Usuario < ActiveRecord::Base
                   :palestras, 
                   :senha, 
                   :telefone
+
+    validates :endereco, presence: true
 end
